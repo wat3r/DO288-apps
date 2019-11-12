@@ -20,4 +20,3 @@ RUN chgrp -R 0 /var/log/httpd /var/run/httpd && \
 
 # Run as a non-privileged user
 USER 1001
-FROM quay.io/redhattraining/httpd-parent
